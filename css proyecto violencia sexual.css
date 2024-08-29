@@ -9,7 +9,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #8B0000; /* Color rojo oscuro */
+    background-color: rgb(112, 4, 58); /* Color rojo oscuro */
     color: white; /* Color del texto en el encabezado */
     padding: 20px; /* Espaciado interno */
     text-align: center; /* Centrar texto */
