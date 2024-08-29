@@ -9,7 +9,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: rgb(112, 4, 58); /* Color rojo oscuro */
+    background-color: hsl(310, 100%, 71%); /* Color rojo oscuro */
     color: white; /* Color del texto en el encabezado */
     padding: 20px; /* Espaciado interno */
     text-align: center; /* Centrar texto */
@@ -48,9 +48,9 @@ section {
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
-
+   
 h1, h2 {
-    color: #8B0000; /* Color rojo oscuro para encabezados */
+    color: hsl(310, 100%, 71%); /* Color rojo oscuro para encabezados */
 }
 
 /* Estilos para imágenes */
