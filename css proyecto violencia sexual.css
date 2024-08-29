@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1e3e3; /* Color de fondo claro */
+    color: #333; /* Color de texto */
+}
+
+/* Encabezado */
+header {
+    background-color: #8B0000; /* Color rojo oscuro */
+    color: white; /* Color del texto en el encabezado */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+nav ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0; /* Quitar padding */
+    display: flex; /* Usar flexbox para la navegación */
+    justify-content: center; /* Centrar elementos */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre elementos de la lista */
+}
+
+nav ul li a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Negrita */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el cursor */
+}
+
+/* Contenido principal */
+main {
+    padding: 40px; /* Espaciado interno */
+}
+
+section {
+    margin-bottom: 40px; /* Espaciado entre secciones */
+    background-color: white; /* Fondo blanco para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1, h2 {
+    color: #8B0000; /* Color rojo oscuro para encabezados */
+}
+
+/* Estilos para imágenes */
+img {
+    width: 100%; /* Ancho completo */
+    max-width: 600px; /* Ancho máximo */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Formularios */
+form {
+    margin-top: 20px; /* Margen superior */
+}
+
+label {
+    display: block; /* Mostrar como bloque */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+textarea {
+    height: 120px; /* Altura del área de texto */
+}
+
+button[type="submit"] {
+    background-color: #8B0000; /* Color de fondo del botón */
+    color: white; /* Color del texto en el botón */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+button[type="submit"]:hover {
+    background-color: #6b0000; /* Color de fondo al pasar el cursor */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+#titulo-info{
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-size:  75px;
+}
+
+
